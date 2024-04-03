@@ -1,0 +1,10 @@
+Bước thực hiện thuật toán DFS:
+A
+D
+F
+K
+C
+E
+G
+
+Đường đi từ A => G: A -> D -> F -> K -> C -> E -> G
