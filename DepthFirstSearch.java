@@ -3,10 +3,14 @@ import java.util.*;
 
 public class DepthFirstSearch {
 
+    //nodeContainer lưu trữ các node để tránh tạo lại các node đã tạo trong phần đọc ghi
     private static NodeContainer nodeContainer;
     private static Node root,end;
+    //lưu trạng thái liền kề của node hiện tại
     private static List<Node> state=new ArrayList<>();
+    //danh sách l
     private static List<Node> l=new ArrayList<>();
+    //lưu các phát triển trạng thái
     private static List<String> steps=new ArrayList<>();
 
 
